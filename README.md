@@ -148,7 +148,7 @@ Dead --> [*] : Aborted
 
 
 ## uso de diagramas con startuml
-```startuml
+```plantuml
 @startuml component
 actor client
 node app
