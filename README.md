@@ -126,7 +126,7 @@ graph TD;
 
 
 ## uso de diagramas UML
-``plantuml
+```plantuml
 @startuml
 scale 600 width
 skinparam backgroundColor #FFEBDC
