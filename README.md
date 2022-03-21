@@ -112,3 +112,14 @@ ___
 @erasmo 👍 
 
 [lista de emojis](https://gist.github.com/rxaviers/7360908)
+
+
+___
+## Uso de Diagramas 
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
