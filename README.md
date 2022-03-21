@@ -108,4 +108,7 @@ ___
 * [ ] Task 4
 * [x] Task 5
 
-## 
+## Uso de emojis y etiquetar personas 
+@erasmo 👍 
+
+[lista de emojis](https://gist.github.com/rxaviers/7360908)
