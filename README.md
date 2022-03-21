@@ -125,7 +125,7 @@ graph TD;
 ```
 
 
-## uso de diagramas UML
+## uso de diagramas UML usando plantuml
 ```plantuml
 @startuml
 scale 600 width
@@ -145,3 +145,14 @@ state Running {
 Dead --> [*] : Aborted
 @enduml
 ```
+
+
+## uso de diagramas con startuml
+@startuml component
+actor client
+node app
+database db
+
+db -> app
+app -> client
+@enduml
