@@ -148,6 +148,7 @@ Dead --> [*] : Aborted
 
 
 ## uso de diagramas con startuml
+```startuml
 @startuml component
 actor client
 node app
@@ -156,3 +157,4 @@ database db
 db -> app
 app -> client
 @enduml
+```
