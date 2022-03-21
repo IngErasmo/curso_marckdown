@@ -13,6 +13,8 @@ This is an *italic* text
 
 This is an **strong** text
 
+Texto en ***cursiva y negrita***
+
 <!-- strikethrough -->
 Esto es un ~~texto tachado~~
 
@@ -28,6 +30,8 @@ Esto es un ~~texto tachado~~
 * orange
 * peach
 
+
+
 ### Lista ordenada
 1. apple
     1. red apple
@@ -39,18 +43,27 @@ Esto es un ~~texto tachado~~
 
 ___
 ## Enlaces de internet
+### enlaces en la misma linea
 <!-- Enlace sencillo -->
 [faztweb.com](http://www.faztweb.com)
 <!-- enlace cambiando la previsualizacion de la url por texto personalizado -->
 [faztweb.com](http://www.faztweb.com "Custom title" )
+
+### enlaces con la liga declarada aparte
+[Logo de Markdown][mk1]
+
+### enlaces con la liga declarada aparte y con titulo 
+[Logo de Markdown](mk1 "Logo de markdown")
+
+[mk1]:https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1280px-Markdown-mark.svg.png
 ___
+## ejemplo de citas 
 <!-- citar textos  -->
 > esta es una cita 
 
-
 ___
 ## Ejemplo de codigos
-### linea de codigo simple
+### Linea de codigo simple
 <!-- Linea de codigo sensilla -->
 `console.log('hello world')`
 
@@ -88,8 +101,11 @@ ___
 
 
 <!-- REGLAS PROPIAS DE GITHUB MARCKDOWN -->
+## Uso de todo lists
 * [x] Task 1
 * [x] Task 2
-* [] Task 3
-* [] Task 4
+* [ ] Task 3
+* [ ] Task 4
 * [x] Task 5
+
+## 
